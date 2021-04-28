@@ -1,10 +1,11 @@
-import React from 'react';
-
+import React from "react";
+import Routes from "./routes"
 
 function App() {
+  
   return (
     <div>
-      <h2>Hellow world!</h2>
+      <Routes></Routes>
     </div>
   );
 }
