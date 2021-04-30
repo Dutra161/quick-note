@@ -1,10 +1,25 @@
 import React from "react";
+import {Form,Button} from "react-bootstrap";
+import "./Login.css";
 
 function Login(){
     return(
-        <dv>
-            <h1>Login</h1>
-        </dv>
+        <div className="base">
+            <div className="container">
+                <div>
+                    <img src="/imagens/Quick_note.png" alt="Quick"/>
+                    <Form className="inputs">
+                        <Form.Group controlId="email">
+                            <Form.Control type="email" placeholder="Email" />
+                        </Form.Group>
+                        <Form.Group controlId="senha">
+                            <Form.Control type="password" placeholder="Senha" />
+                        </Form.Group>
+                        <Button variant="primary">Login</Button>{' '}
+                    </Form>
+                </div>
+            </div>
+        </div>
     );
 }
 export default Login;
