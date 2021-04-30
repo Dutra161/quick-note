@@ -1,8 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 423px;
-    align-items: center;
+    max-width: 423px!important;
     flex-grow: 1;
     
 }
@@ -18,4 +17,9 @@
     flex-direction: column;
     margin-left: 16px;
     margin-right: 16px;
+}
+.image{
+    margin: auto;
+    max-width: 400px;
+
 }
