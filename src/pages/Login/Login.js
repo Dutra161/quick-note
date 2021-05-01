@@ -21,7 +21,7 @@ function Login(){
         <div className="base">
             <div className="container">
                 <div>
-                    <img className="image" src="/imagens/Quick_note.png" alt="Quick"/>
+                    <img className="image" src="/images/Quick_note.png" alt="Quick"/>
                     <Form className="inputs">
                         <Form.Group controlId="email">
                             <Form.Control type="email" placeholder="Email" onChange={(e) =>setEmail(e.target.value) } />
